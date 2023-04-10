@@ -1,0 +1,50 @@
+.petaments-hero-col {
+    padding: 0;
+}
+.petaments-container {
+    margin-top: 50px;
+}
+.Location-info p {
+    font-family: 'Poppins', sans-serif;
+    padding: 2px 12px;
+    border-radius: 10px;
+    background-color: #3F3B3B;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.Location-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.petaments-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.petaments-sub-heading {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.petaments-para {
+    line-height: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (max-width:480px) {
+    .petaments-detail-row {
+        flex-direction: column;
+    }
+}   
+
+@media (min-width:480px) and (max-width:840px) {
+    .petaments-hero-row {
+        justify-content: center;
+        align-items: center;
+    }
+}
