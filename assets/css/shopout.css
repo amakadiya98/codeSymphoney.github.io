@@ -1,0 +1,49 @@
+.shopout-col {
+    padding: 0;
+}
+
+.shopout-para {
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+}
+.shopout-container {
+    margin-top: 50px;
+}
+
+.shopout-sub-heading {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px;
+    font-weight: 300;
+    width: 440px;
+}
+
+.shopout-icon {
+    height:40px;
+    width: 40px;
+}
+
+.shopout-hero-img {
+    margin-left:10%;
+    height:50vh;
+    width:90%
+}
+
+@media (max-width:480px) {
+    .shopout-container {
+        margin-top: 20px;
+    }
+    .shopout-detail-row {
+        flex-direction: column;
+    }
+    .shopout-icon {
+        height: auto;
+        width: auto;
+    }
+    .shopout-hero-img {
+        height:50vh;
+        width:80%
+    }
+}
