@@ -3,7 +3,8 @@
 }
 
 .bryllance-container {
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .bryllance-heding {
@@ -14,9 +15,10 @@
 .bryllance-para {
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     text-align: start;
+    margin-bottom: 6px;
 }
 
 .bryllance-icon {
@@ -24,9 +26,9 @@
     width: 40px;
 }
 
-.bryllance-sub-heading {
+/* .bryllance-sub-heading {
     width: 380px;
-}
+} */
 
 @media (max-width:480px) {
     .bryllance-container {
@@ -49,4 +51,34 @@
         font-size: 14px;
     }
 
+}
+
+
+.hero-section.answer-book-project-page{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    /* background: url('../../assets/projects/bryllance/Bryllance 4.png'); */
+    background: url('../../assets/projects/bryllance/Bryllance 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 100px 0 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section.answer-book-project-page::before{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }

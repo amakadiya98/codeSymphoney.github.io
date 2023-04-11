@@ -3,7 +3,8 @@
 }
 
 .eccocar-container {
-    margin-top: 25px;
+   padding-top: 50px;
+   padding-bottom: 50px;
 }
 
 .Location-info p {
@@ -45,13 +46,18 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
 .eccocar-mobile-right p {
     color: white;
     font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin: 20px 0;
+}
+.eccocar-mobile-right p::before{
+    display: none;
 }
 
 .eccocar-mobile-right h3 {
@@ -80,7 +86,7 @@
 
 .eccocar-sm-font {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px !important;
 }
 
@@ -97,4 +103,22 @@
         font-size: 12px;
         font-family: 'Poppins', sans-serif;
     }
+}
+
+.eccocar-project-details{
+    padding: 50px 0 20px!important;
+}
+
+.carousel-black-section{
+    padding: 50px 0;
+}
+.carousel-black-section h3{
+    color: #fff;
+    text-align: left;
+}
+.carousel-black-section .carousel-indicators{
+    bottom: -40px;
+}
+.eccocar-last-section{
+    padding: 50px 0;
 }

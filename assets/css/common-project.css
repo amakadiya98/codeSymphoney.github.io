@@ -1,0 +1,144 @@
+
+.hero-section{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 100px 0 0;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section.answer-book-project-page{
+    background: url('../../assets/projects/answerbook/answerbook.webp');
+}
+.hero-section.bryllance-project-page{
+    background: url('../../assets/projects/bryllance/Bryllance 4.png');
+}
+.hero-section.eccocar-project-page{
+    background: url('../../assets/projects/eccocar/hero-eccocar.webp');
+}
+
+.hero-section.petaments-project-page{
+    background: url('../../assets/projects/petaments/hero-imh');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+.hero-section::before{
+    content: "";
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.hero-section.bryllance-project-page::before{
+    opacity: 0.7;
+}
+.hero-section.eccocar-project-page::before{
+    opacity: 0.7;
+}
+.project-name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-name p{
+    font-size: 16px;
+    color: #fff;
+}
+.project-name h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.common-title{
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+    margin: 0;
+}
+.common-title i{
+    margin-right: 10px;
+    background: linear-gradient(to right, #333231 0%, #8f8278 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.common-badge{
+    font-size: 14px !important;
+    background-color: transparent !important;
+    color: #111 !important;
+    opacity: 0.6;
+    padding: 0 !important;
+}
+.pd-about-text{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2;
+}
+.project-detials{
+    background: linear-gradient(to left, #333231 -20%, #8f8278 100%);
+    padding: 30px 0;
+}
+.web-dev-part{
+    background: linear-gradient(to right, #333231 -20%, #8f8278 100%);
+    padding: 50px 0;
+}
+.address-book-page .footer-1{
+    margin-top: 0;
+}
+
+
+.features-container-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 2rem;
+    max-width: 90%;
+}
+.feature-heading-text{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 85%;
+    opacity: 0.8;
+}
+.feature-details{
+    margin-bottom: 0.5rem;
+}
+.feature-heading {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+    max-width: 85%;
+    opacity: 0.8;
+    position: relative;
+    margin-left: 10px;
+}
+.feature-heading::before{
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    left: -18px;
+    top: 11px;
+}

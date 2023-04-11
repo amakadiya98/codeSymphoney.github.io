@@ -46,6 +46,7 @@
   <link rel="stylesheet" href="../assets/css/answerbook-new.css">
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/bryllance.css">
+  <link rel="stylesheet" href="../assets/css/common-project.css">
   <script src="https://kit.fontawesome.com/4e41ac621c.js" crossorigin="anonymous"></script>
   <script
     type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = { "currencyCode": "USD", "$init": true, "symbol": "$", "decimal": ".", "fractionDigits": 2, "group": ",", "template": "{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}", "hideDecimalForWholeNumbers": false };</script>
@@ -87,58 +88,58 @@
     </div>
   </div>
 
-  <section class="pd-hero-container">
-    <div class="container-fluid" style="height:100%;">
-      <div class="row bryllance-hero-row" style="height:100%">
-        <div class="col-md-6 col-sm-12 hero-col"
-          style="display:flex;flex-direction:column;align-items:start;justify-content:center;padding-left:8rem">
-          <h1 class="pd-hero-title">Bryllance</h1>
-          <p class="pd-hero-subtitle bryllance-hero-subtitle">Tution Teacher, Music Teacher, Fitness instructor/Coach, Photographer/Videographer</p>
-        </div>
-        <div class="col-md-6 col-sm-12 bryllance-hero-col">
-          <img src="../assets/projects/bryllance/Bryllance 4.png" alt="">
-        </div>
+  <section class="hero-section bryllance-project-page">
+    <div class="container">
+      <div class="project-name">
+        <h2>Bryllance</h2>
+        <p>Tution Teacher, Music Teacher, Fitness instructor/Coach, Photographer/Videographer</p>
       </div>
     </div>
   </section>
 
-  <!-- our work  ---->
   <section class="bryllance-container">
-
     <div class="container text-center">
-      <div class="row gx-5">
-        <div class="col col-md-12 col-lg-6">
+      <div class="row answerbook-row gx-5">
+        <div class="col col-md-12 col-lg-4">
+          <div class="text-start">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="platform">
+                  <h2 class="platform-title common-title">
+                    <i class="fa-sharp fa-solid fa-globe"></i>Platform</h2>
+                  <div class="platform-info d-flex mt-1">
+                    <p class="common-badge">Mobile</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="technologies mt-1">
+                  <h2 class="technology-title common-title"><i class="fa-solid fa-code"></i>Technologies</h2>
+                  <div class="technologie-info d-flex mt-1">
+                    <p class="common-badge">React Native, Redux</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-12 col-lg-8">
           <div class="">
             <h1 class="bryllance-heding mb-3">Overview</h1>
             <p class="text-start bryllance-para">Bryllance is aiming to help freelancers offering personalised services source for freelance jobs opportunities and grow their business. Bryllance motivated to help the freelance industry grow, decrease reliance on third party agencies and return power to the individual freelancer and consumer. Bryllance selected Code Symphony as a technology partner to convert their idea into a reality - a viable product to help them flourish in the market.</p>
-            <h1 class="bryllance-heding">Services offered by Bryllance</h1>
+            <h1 class="bryllance-heding mt-4 mb-3">Services offered by Bryllance</h1>
             <p class="bryllance-para">Tution Teacher</p>
             <p class="bryllance-para">Music Teacher</p>
             <p class="bryllance-para">Fitness instructor/Coach, Photographer/Videographer</p>
           </div>
         </div>
-        <div class="col">
-          <div class="text-start">
-            <div class="platform">
-              <h2 class="platform-title">Platform</h2>
-              <div class="platform-info d-flex mt-1">
-                <p style="margin-right:10px;">Mobile</p>
-              </div>
-            </div>
-            <div class="technologies">
-              <h2 class="technology-title">Technologies</h2>
-              <div class="technologie-info d-flex mt-1">
-                <p>React Native</p>
-                <p>Redux</p>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </section>
 
-  <section style="background-color:#3F3B3B;">
+
+  <section class="project-detials">
     <div class="px-4 key-feature-container ">
       <div class="row gx-5 feature-row">
         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -174,12 +175,9 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 text-start">
           <div class="p-3 text-start">
-            <h2 class="features-container-title" style="color: #FEB062;">Specially made for both the Freelancer and the Client.</h2>
+            <h2 class="features-container-title">Specially made for both the Freelancer and the Client.</h2>
             <div class="feature-content">
               <div class="feature-details d-flex align-items-center mt-3">
-                <div class="feature-icon" style="margin-right:20px;">
-                  <img src="../assets/projects/bryllance/icons/communication.png" class="bryllance-icon">
-                </div>
                 <div class="feature-heading text-white bryllance-sub-heading">
                   Chat function- Clients and freelancers are able to actively chat before hiring.
                 </div>
@@ -187,9 +185,6 @@
             </div>
             <div class="feature-content">
               <div class="feature-details d-flex align-items-center mt-3">
-                <div class="feature-icon" style="margin-right:20px;">
-                  <img src="../assets/projects/bryllance/icons/search-bar.png" class="bryllance-icon">
-                </div>
                 <div class="feature-heading text-white bryllance-sub-heading">
                   Search Function- Clients are able to search for freelancer profiles and view their rates, qualifications, ratings, reviews. 
                 </div>
@@ -197,9 +192,6 @@
             </div>
             <div class="feature-content">
               <div class="feature-details d-flex align-items-center mt-3">
-                <div class="feature-icon" style="margin-right:20px;">
-                  <img src="../assets/projects/bryllance/icons/Dashboard.png" class="bryllance-icon">
-                </div>
                 <div class="feature-heading text-white bryllance-sub-heading">
                   Dashboard- Keep track of your active clients or freelancer. Freelancers are also able to track their ratings and completed sessions.
                 </div>
@@ -207,9 +199,6 @@
             </div>
             <div class="feature-content">
               <div class="feature-details d-flex align-items-center mt-3">
-                <div class="feature-icon" style="margin-right:20px;">
-                  <img src="../assets/projects/bryllance/icons/Profile-Build.png" class="bryllance-icon">
-                </div>
                 <div class="feature-heading bryllance-sub-heading text-white">
                   Profile-Build your own professional profile as a freelancer.
                 </div>

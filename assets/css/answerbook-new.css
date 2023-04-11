@@ -79,7 +79,7 @@ body {
 
 .pd-about-title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .platform-title {
@@ -126,6 +126,7 @@ body {
     font-weight: 600;
     color: #fff;
     margin-bottom: 2rem;
+    max-width: 90%;
 }
 .feature-heading-text{
     font-family: 'Poppins', sans-serif !important;
@@ -234,80 +235,4 @@ body {
     .feature-row {
         flex-direction: column;
     }
-}
-
-.hero-section.answer-book-project-page{
-    position: relative;
-    color: #fff;
-    text-align: center;
-    background: url('../../assets/projects/answerbook/answerbook.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
-    z-index: 1;
-    padding: 100px 0;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.hero-section.answer-book-project-page::before{
-    content: "";
-    position: absolute;
-    background-color: #000;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-.project-name{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.project-name h2{
-    font-size: 60px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-}
-.common-title{
-    font-weight: 500;
-    font-size: 22px;
-    color: #000;
-    margin: 0;
-}
-.common-title i{
-    margin-right: 10px;
-    background: linear-gradient(to right, #333231 0%, #8f8278 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.common-badge{
-    font-size: 14px !important;
-    background-color: transparent !important;
-    color: #111 !important;
-    opacity: 0.6;
-    padding: 0 !important;
-}
-.pd-about-text{
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.2;
-}
-.project-detials{
-    background: linear-gradient(to left, #333231 -20%, #8f8278 100%);
-    padding: 30px 0;
-}
-.web-dev-part{
-    background: linear-gradient(to right, #333231 -20%, #8f8278 100%);
-    padding: 50px 0;
-}
-.address-book-page .footer-1{
-    margin-top: 0;
 }
