@@ -16,21 +16,17 @@
     align-items: center;
 }
 .hero-section.answer-book-project-page{
-    background: url('../../assets/projects/answerbook/answerbook.webp');
+    background-image: url('../../assets/projects/answerbook/answerbook.webp');
 }
 .hero-section.bryllance-project-page{
-    background: url('../../assets/projects/bryllance/Bryllance 4.png');
+    background-image: url('../../assets/projects/bryllance/Bryllance 4.png');
 }
 .hero-section.eccocar-project-page{
-    background: url('../../assets/projects/eccocar/hero-eccocar.webp');
+    background-image: url('../../assets/projects/eccocar/hero-eccocar.webp');
 }
 
 .hero-section.petaments-project-page{
-    background: url('../../assets/projects/petaments/hero-imh');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    background-attachment: fixed;
+    background-image: url('../../assets/projects/petaments/hero-imh');
 }
 
 .hero-section::before{
