@@ -24,7 +24,9 @@
 .hero-section.eccocar-project-page{
     background-image: url('../../assets/projects/eccocar/hero-eccocar.webp');
 }
-
+.hero-section.remedo-project-page{
+    background-image: url('../../assets/projects/remedo/Remedo-Home-1.png');
+}
 .hero-section.petaments-project-page{
     background-image: url('../../assets/projects/petaments/hero-imh');
 }
@@ -43,6 +45,9 @@
     opacity: 0.7;
 }
 .hero-section.eccocar-project-page::before{
+    opacity: 0.7;
+}
+.hero-section.remedo-project-page::before{
     opacity: 0.7;
 }
 .project-name{
@@ -89,6 +94,10 @@
 }
 .project-detials{
     background: linear-gradient(to left, #333231 -20%, #8f8278 100%);
+    padding: 30px 0;
+}
+.project-detials-reverse{
+    background: linear-gradient(to right, #333231 -20%, #8f8278 100%);
     padding: 30px 0;
 }
 .web-dev-part{
