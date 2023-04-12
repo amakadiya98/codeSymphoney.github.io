@@ -307,7 +307,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 40px;
+    /* font-size: 40px; */
     padding: 20px 0;
     background: linear-gradient(to right, #333231 0%, #8f8278 100%);
     -webkit-background-clip: text;
@@ -365,6 +365,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     color: #FEB062;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .portfolio-view-more-container {
@@ -616,7 +617,8 @@ a:hover {
     /* clients section --- */
 
     .our-clients {
-        display: none;
+        /* display: none; */
+        padding: 50px 0;
     }
     .clients-logos-container{
         justify-content: space-evenly;
@@ -886,16 +888,18 @@ a:hover {
 .portfolio-name {
     text-align: left;
     background-color: #fff;
-    padding-top: 20px;
 }
 .portfolio-name h5{
-    font-size: 24px;
+    font-size: 32px;
     font-family: 'Poppins', sans-serif;
     color: #333231;
     font-weight: 600;
     text-transform: capitalize;
     opacity: 0.8;
     padding-left: 10px;
+    background: linear-gradient(to right, #333231 0%, #8f8278 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .portfolio-name p{
     font-size: 18px;
@@ -906,4 +910,24 @@ a:hover {
 }
 .sticky-navbar{
     background-color: #fff;
+}
+
+
+
+.Our-Services{
+    padding: 50px 0;
+}
+h1{
+    font-weight: 600;
+    font-size: 48px;
+}
+.portfolio-section{
+    padding: 50px 0;
+}
+.client-section{
+    padding: 50px 0;
+    background: linear-gradient(to left, #333231 -20%, #8f8278 100%);
+}
+.client-section .carousel-indicators{
+    bottom: -22px;
 }
