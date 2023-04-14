@@ -868,6 +868,7 @@ a:hover {
     margin-bottom: 50px;
     padding: 10px 10px;
 }
+
 /* .portfolio-item-card::after{
     position: absolute;
     content: "";
@@ -882,8 +883,12 @@ a:hover {
     /* box-shadow: 0 10px 20px -5px rgb(0 0 0/10%); */
     overflow: hidden;
 }
-.portfolio-item-card .portfolio-image  img{
+.portfolio-item-card .portfolio-image img{
     overflow: hidden;
+    transition: 0.3s all;
+}
+.portfolio-item-card:hover .portfolio-image img{
+    transform: scale(1.1);
 }
 .portfolio-name {
     text-align: left;
