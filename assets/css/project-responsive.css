@@ -1,0 +1,153 @@
+.right-side-part {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.eccocar-mobile-left img {
+    width: 65%;
+}
+
+#slider {
+    height: 25vw;
+}
+
+@media screen and (max-width:1024px) {
+    #slider {
+        height: 30vw;
+    }
+
+    #slider-desktop {
+        width: 60%;
+        height: 30vw;
+    }
+
+    #slider.slider-answerbook {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    #slider-desktop,
+    #slider {
+        width: 75%;
+    }
+
+    #slider2,
+    #slider.slider-remedo {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #slider2 label,
+    #slider2 label img,
+    #slider.slider-remedo label,
+    #slider.slider-remedo label img {
+        width: 200px;
+        height: 400px;
+    }
+
+    #slider.slider-answerbook,
+    #slider.slider-sonetel {
+        height: 35vw;
+    }
+
+    #slider-desktop,
+    #slider {
+        width: 70%;
+    }
+
+    .right-side-part {
+        justify-content: flex-start;
+    }
+    #slider-desktop{
+        min-height: 250px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #slider.slider-answerbook {
+        width: 30%;
+        height: 30vw;
+    }
+
+    #slider2,
+    #slider.slider-remedo {
+        width: 35%;
+    }
+
+    #slider.slider-sonetel {
+        height: 30vw;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    #slider.slider-answerbook {
+        width: 32%;
+        height: 35vw;
+    }
+
+    .eccocar-mobile-left img {
+        width: 90%;
+    }
+
+    #slider-desktop {
+        width: 90%;
+        height: 35vw;
+    }
+
+    .feature-heading {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #slider.slider-sonetel {
+        width: 60%;
+    }
+
+    #slider.slider-answerbook {
+        width: 30%;
+        height: 45vw;
+    }
+
+    #slider-desktop {
+        width: 65%;
+    }
+
+    #slider2 label,
+    #slider2 label img,
+    #slider.slider-remedo label,
+    #slider.slider-remedo label img {
+        width: 100px;
+        height: 250px;
+    }
+
+    #slider2,
+    #slider.slider-remedo {
+        height: 200px;
+        margin-top: 0;
+    }
+
+    #slider2 {
+        margin-top: 50px;
+    }
+
+    #slider.slider-answerbook {
+        height: 200px !important;
+        margin: 0px auto 50px !important;
+    }
+
+    #slider {
+        width: 60%;
+    }
+
+    .project-name h2 {
+        font-size: 46px;
+    }
+    #slider-desktop{
+        min-height: 180px;
+    }
+}
