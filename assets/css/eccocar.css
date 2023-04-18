@@ -110,15 +110,19 @@
 }
 
 .carousel-black-section{
-    padding: 50px 0;
+    padding: 50px 0 60px;
 }
 .carousel-black-section h3{
     color: #fff;
     text-align: left;
 }
 .carousel-black-section .carousel-indicators{
-    bottom: -40px;
+    bottom: -70px;
+    display: none;
 }
 .eccocar-last-section{
     padding: 50px 0;
 }
+
+
+
